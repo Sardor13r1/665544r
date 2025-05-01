@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fd;
+    color: #333;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+    background-color: #f8f9fd;
+  }
+  .hero-text {
+    max-width: 500px;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+  .hero p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #666;
+  }
+  .hero button {
+    background-color: #458ff6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .services {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 0 50px;
+  }
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: left;
+  }
+  .card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 14px;
+    color: #777;
+  }
+  .highlight {
+    background-color: #458ff6;
+    color: white;
+  }
